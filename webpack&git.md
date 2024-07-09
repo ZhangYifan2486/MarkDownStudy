@@ -2,10 +2,22 @@
 从配置文件初始化参数，
 加载plugin,初始化compiler对象,从entry出发，针对module调用loader,组合成chunk,再输出成文件。
 
+# 插件webpack-bundle-analyzer
+来可视化地查看各个文件的大小
+
 # 常见的loader
 babelloader:将es6转换成es5
 
+# externals
+排除常用类库，在不进行安装npm情况下，在index.html下引入就能import
+
+# 优化tree-shaking
+
 # 常见的plugin
+
+# loader 和 plugin原理
+loader本质就是函数，对接收到的内容进行转换，返回结果\
+plugin更灵活，是一种插件，可以扩展webpack的功能\
 
 # 热更新原理
 在不需要刷新整个页面的同时更新模块，能够提升开发的效率和体验。热更新时只会局部刷新页面上发生了变化的模块，同时可以保留当前页面的状态。
