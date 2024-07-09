@@ -5,6 +5,8 @@
 资源压缩\
 合理使用选择器\
 
+ # window对象的属性
+ screen,document,navigator,location...
 
 ## promise then
 ``promise(  function(resolve,reject){
