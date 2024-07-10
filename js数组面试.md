@@ -27,5 +27,22 @@ reduce(function(初始为空，当前值))
 也可以利用reduce()
 
 
+## 数组增，删除，更改操作 
+push,splice(开始的位置，删除个数，增加元素)，unshift(在数组开头添加任意值)，
+pop() ,slice()
+
+## 数组查询
+indexOf(),find()
+
+## 排序
+reverse(),sort()
+
+## 数组迭代
+some(),every()返回boolean\
+forEach()无返回值\
+filter(判断为true的返回),map()有返回
+
+
+
 
 
