@@ -42,7 +42,7 @@ await遇到promise，会阻塞后面函数运行，并等待promise执行所有t
 
 ## var let const 区别
 var可以变量提升，在声明前使用,剩下不行\
-var有块级作用域，可以块外使用，剩下不行\
+var不是块级作用域，可以块外使用，剩下不行\
 
 ## setTimeout() 和setInterval
 setTimeout()广告
@@ -61,6 +61,7 @@ setInterval 轮播图
 ③jquery的extend 
 
 ## javascript自字面创建对象和new创建对象区别
+字面不会调用，更加简洁
 new 直接调用构造函数
 
 ## js执行流程

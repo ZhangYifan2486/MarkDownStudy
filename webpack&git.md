@@ -12,6 +12,7 @@ babelloader:将es6转换成es5
 排除常用类库，在不进行安装npm情况下，在index.html下引入就能import
 
 # 优化tree-shaking
+去掉没用上的代码
 
 # 常见的plugin
 
@@ -36,3 +37,6 @@ js,css,html压缩\
 
 # git merge和git rebase的区别
 git merge会⾃动创建⼀个新的commit，如果合并时遇到冲突的话，只需要修改后重新commit。
+
+# git 文件四种状态
+untracked,unmoify,modified,staged
