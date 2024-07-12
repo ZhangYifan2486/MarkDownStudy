@@ -119,6 +119,9 @@ Ajax的核心对象 XMLHttpRequest对象,通过 XMLHttpRequest 对象的 open() 
 
 
 # <font color=red>vue vue-router 响应式基础 props组件 生命周期 axios watch&computed vuex </font>
+## vue和原生的区别
+下载包更方便，组件类名不冲突，代码可读性更高
+
 ## mvvm设计模式原理
 数据劫持以及发布者订阅模式\
 数据劫持setter,getter,数据变动时发布
