@@ -129,8 +129,10 @@ Ajax的核心对象 XMLHttpRequest对象,通过 XMLHttpRequest 对象的 open() 
 ## vue3响应式原理
 vue3通过proxy监听对象属性的变化\
 vue3使用weakmap存储依赖关系，避免了watcher的内存泄露
+
 ## 组合式api
 灵活，代码量少，
+
 ## 组件式开发的优点
 降低代码耦合度\
 调试方便，提高可维护性\
@@ -160,7 +162,7 @@ computed:一个数据受多个数据影响，多个属性影响一个属性时�
 
 
 ## provide inject 
-用于父组件向子组件传递数据
+用于祖先组件向子组件传递数据
 
 ## 生命周期
 setup:组件初始化时\
